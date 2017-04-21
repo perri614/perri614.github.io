@@ -1,0 +1,21 @@
+# Site settings
+title: Learning to Code
+header-img: img/home-bg.png
+email: perri614@gmail.com
+copyright_name: perri614
+description: > # this means to ignore newlines until "baseurl:"
+  A Support Administrator Goes Rogue
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: fororganic
+github_username:  perri614
+learn_profile: perri614
+email_username: perri614@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
